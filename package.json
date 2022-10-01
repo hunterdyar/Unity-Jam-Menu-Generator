@@ -1,0 +1,23 @@
+{
+  "name": "com.hdyar.jam-menu-generator",
+  "version": "0.1.1",
+  "displayName": "Jam Menu Generator",
+  "description": "Menu Utility and a one-button setup tool. Stop fiddling with menus again.",
+  "unity": "2021.3",
+  "unityRelease": "8f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "Menu",
+    "Tool"
+  ],
+  "author": {
+    "name": "Hunter Dyar",
+    "email": "me@hdyar.com",
+    "url": "https://guidebook.hdyar.com"
+  },
+  "dependencies": {
+    "com.unity.textmeshpro": ""
+  }
+}
