@@ -1,19 +1,14 @@
-﻿using Sirenix.OdinInspector;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 namespace Blooper.MenuGenerator.Runtime
 {
 	[System.Serializable]
 	public class MenuOption
 	{
-		[HideIf("optionType", MenuOptionType.Image)]
 		public string optionName;
 		public MenuOptionType optionType;
 		
-		[ShowIf("optionType",MenuOptionType.LoadSceneButton)]
 		public string scene;
 
-		[ShowIf("optionType", MenuOptionType.Image)]
 		public Sprite image;
 		public MenuOption(string optionName, MenuOptionType optionType)
 		{
