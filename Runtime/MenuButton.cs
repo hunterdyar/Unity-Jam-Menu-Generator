@@ -1,6 +1,4 @@
 ﻿using System;
-using Sirenix.OdinInspector;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,13 +8,9 @@ namespace Blooper.MenuGenerator.Runtime
 	public class MenuButton : MonoBehaviour
 	{
 		public Action OnButtonPressed;
-		[SerializeField] private MenuManager _manager;
-		[Space]
+		private MenuManager _manager;
 		public MenuOptionType optionType;
-		[ShowIf("@this.optionType == MenuOptionType.SubPanel || this.optionType == MenuOptionType.ClosePanel")]
-		[SerializeField] private MenuPanel panel;
-
-		[ShowIf("optionType", MenuOptionType.LoadSceneButton)] [SerializeField]
+		private MenuPanel panel;
 		private string sceneName;
 		
 		private Button _button;

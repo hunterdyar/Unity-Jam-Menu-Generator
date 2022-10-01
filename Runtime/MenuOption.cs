@@ -1,7 +1,6 @@
 ﻿using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.UI;
-
 namespace Blooper.MenuGenerator.Runtime
 {
 	[System.Serializable]
