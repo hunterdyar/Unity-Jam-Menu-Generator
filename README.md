@@ -8,9 +8,9 @@ Install the package. Click a button. Now you have a menu.
 
 ## Installation
 
-1. Install TextMeshPro.
+1. Install TextMeshPro and import 'TMP Essentials' if you have not already.
 
-3. Install the package via the package manager.
+2. Install the package via the package manager.
    1. Open the package manager.
    2. Press the "+" button, and select "Add Package from Git URL"
    3. Paste the following URL in: `https://github.com/hunterdyar/Unity-Jam-Menu-Generator.git`
